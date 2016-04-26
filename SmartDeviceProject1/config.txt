@@ -1,0 +1,5 @@
+<note>
+  <serverip>192.168.1.89</serverip>
+  <formenabled>00</formenabled>
+  <mode>s</mode>
+</note>
