@@ -75,7 +75,7 @@ namespace SmartDeviceProject1
                 if (Stop)
                 { return; }
 
-                int size = sck.EndReceiveFrom(aResult, ref epRemote);//what is the ref???
+                int size = sck.EndReceiveFrom(aResult, ref epRemote);//stop reading from the socket
                 if (size > 0)//checks if there is information on network or not
                 {
                     byte[] receiveddata = new byte[1];
@@ -88,9 +88,9 @@ namespace SmartDeviceProject1
 
 
                 }
-                byte[] buffer = new byte[50];
+                byte[] buffer = new byte[1];
                 sck.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref epRemote, new AsyncCallback(MessageCallback), buffer);
-
+                //start reading from the socket asynchronously
 
 
             }
