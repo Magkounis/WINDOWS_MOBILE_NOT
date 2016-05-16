@@ -111,11 +111,11 @@ namespace SmartDeviceProject1
                 if (rfxml.error != null) MessageBox.Show(rfxml.error);//if there is error show it to a message box
                 if (rfxml.formenabled == "00" || rfxml.formenabled == "0" || rfxml.formenabled == "NO") this.Visible = false;
                 initsocket();
-                epLocal = new IPEndPoint(IPAddress.Parse(getlocalip()), Convert.ToInt32("2000"));
+                epLocal = new IPEndPoint(IPAddress.Parse(getlocalip()), Convert.ToInt32(rfxml.port));
                 label1.Text = label1.Text + "\n" + getlocalip();
                 sck.Bind(epLocal);//bind socket to the local ip and port
                 label1.Text = label1.Text + "\n" + "Bind it";
-                epRemote = new IPEndPoint(IPAddress.Parse(getremoteip()), Convert.ToInt32("2000"));
+                epRemote = new IPEndPoint(IPAddress.Parse(getremoteip()), Convert.ToInt32(rfxml.port));
                 label1.Text = label1.Text + "\n" + getremoteip();
                 sck.Connect(epRemote);
                 label1.Text = label1.Text + "\n" + "Connected";

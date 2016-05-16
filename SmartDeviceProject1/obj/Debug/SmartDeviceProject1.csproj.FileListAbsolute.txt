@@ -6,3 +6,11 @@ C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SmartDeviceProject1
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.exe
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\bin\Debug\SmartDeviceProject1.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\bin\Debug\SmartDeviceProject1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WINDOWS_MOBILE_NOT\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.pdb

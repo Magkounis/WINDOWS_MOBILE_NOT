@@ -13,6 +13,7 @@ namespace SmartDeviceProject1
         public string formenabled { get; set; }
         public string run { get; set; }
         public string error { get; set; }
+        public string port { get; set; }
         public Readfromexml(string namexml)
         {
             try
@@ -28,6 +29,8 @@ namespace SmartDeviceProject1
                 formenabled = node2.InnerText;
                 XmlNode node3 = doc.DocumentElement.SelectSingleNode("mode");
                 mode = node3.InnerText;
+                XmlNode node4 = doc.DocumentElement.SelectSingleNode("port");
+                port = node4.InnerText;
                 doc = null;
                 node = null;
             }
