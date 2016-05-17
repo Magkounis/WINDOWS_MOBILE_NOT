@@ -97,6 +97,9 @@ namespace SmartDeviceProject1
             catch (Exception exp)
             {
                 MessageBox.Show("ERROR IN CALLBACK FUNCTION :" + exp.ToString());
+                Application.Exit();
+                return;
+               
 
             }
 
