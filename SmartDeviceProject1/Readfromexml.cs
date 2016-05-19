@@ -8,7 +8,7 @@ namespace SmartDeviceProject1
 {
    public class Readfromexml
     {
-        public string mode { get; set; }
+        public string hostname { get; set; }
         public string serverip { get; set; }
         public string formenabled { get; set; }
         public string run { get; set; }
@@ -27,8 +27,8 @@ namespace SmartDeviceProject1
                 serverip = node.InnerText;
                 XmlNode node2 = doc.DocumentElement.SelectSingleNode("formenabled");
                 formenabled = node2.InnerText;
-                XmlNode node3 = doc.DocumentElement.SelectSingleNode("mode");
-                mode = node3.InnerText;
+                XmlNode node3 = doc.DocumentElement.SelectSingleNode("hostname");
+                hostname = node3.InnerText;
                 XmlNode node4 = doc.DocumentElement.SelectSingleNode("port");
                 port = node4.InnerText;
                 doc = null;

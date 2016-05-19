@@ -97,7 +97,7 @@ namespace SmartDeviceProject1
             catch (Exception exp)
             {
                 MessageBox.Show("ERROR IN CALLBACK FUNCTION :" + exp.ToString());
-                Application.Exit();
+                Application.Run(new Form1());
                 return;
                
 
@@ -118,7 +118,7 @@ namespace SmartDeviceProject1
                 label1.Text = label1.Text + "\n" + getlocalip();
                 sck.Bind(epLocal);//bind socket to the local ip and port
                 label1.Text = label1.Text + "\n" + "Bind it";
-                epRemote = new IPEndPoint(IPAddress.Parse(getremoteip()), Convert.ToInt32(rfxml.port));
+                epRemote = new IPEndPoint(IPAddress.Parse(getremoteip()), Convert.ToInt32(rfxml.port));//build the remote endpooint(server)
                 label1.Text = label1.Text + "\n" + getremoteip();
                 sck.Connect(epRemote);
                 label1.Text = label1.Text + "\n" + "Connected";
